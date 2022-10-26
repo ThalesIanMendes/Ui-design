@@ -48,6 +48,50 @@
         width: 25%;
         height: 440px;
     }
+    .box-bolinhas{
+       display: flex;
+       position: relative;
+       margin: 10px auto;
+       width: 35px;
+       height: 15px; 
+    }
+    .bola1{
+        background-color: rgb(255, 119, 0);
+        border-radius: 5px;
+        position: relative;
+        margin: auto;
+        width: 10px;
+        height: 10px; 
+    }
+    .bola2{
+        background-color: rgb(255, 247, 0);
+        border-radius: 5px;
+        position: relative;
+        margin: auto;
+        width: 10px;
+        height: 10px; 
+    }
+    .bola3{
+        background-color: rgb(2, 255, 61);
+        border-radius: 5px;
+        position: relative;
+        margin: auto;
+        width: 10px;
+        height: 10px; 
+    }
+    .img-logo{
+        position:relative;
+        margin: 0 0 55% 21%;
+        width: 35px;
+        height: 35px;
+    }
+    .img-logo2{
+        position:relative;
+        margin: 0 0 10px 21%;
+        width: 35px;
+        height: 35px;
+    }
+
     .lateral-direito{
         background-color: rgba(89, 64, 133, 0.607);
         position: relative;
