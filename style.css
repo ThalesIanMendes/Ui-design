@@ -10,6 +10,7 @@
     body{
         background-image: linear-gradient(20deg, rgb(190, 171, 196),rgb(133, 97, 160), rgb(80, 27, 216));
         background-repeat: no-repeat;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .container{
@@ -24,8 +25,6 @@
         width: 75%;
         height: 550px;
     }
-
-
 
     .left{
         background-color: rgba(89, 64, 133, 0.607);
@@ -93,7 +92,7 @@
     }
 
     .lateral-direito{
-        background-color: rgba(89, 64, 133, 0.607);
+        background-color: rgba(84, 63, 120, 0.607);
         position: relative;
         width: 75%;
         height: 440px;
@@ -104,6 +103,49 @@
         border-bottom: 1px solid rgb(110, 98, 132);
         height: 40px;
     }
+    .explore-left h2{
+        position: relative;
+        margin: 20px 0 0 10px;
+        color: white;
+        font-size: 20px;
+    }
+    .sidebar{
+        position: relative;
+        margin: auto;
+    }
+    .box-align{
+        width: 85%;
+        height: 353px;
+        position: relative;
+        margin: 7.5% auto;
+    }
+    .opt-sidebar{
+        display: flex;
+        width: 100%;
+        height: 30px;
+    }
+    .opt-sidebar:nth-child(1){
+        background-color: rgb(30, 24, 65, 60%);
+        border-radius: 4px;
+        display: flex;
+        width: 100%;
+        height: 30px;
+    }
+    .opt-sidebar img{
+        position: relative;
+        margin: 6px 0 0 8px ;
+        width: 20px;
+        height: 20px;
+    }
+    .opt-sidebar p{
+        position: relative;
+        font-size: 12px;
+        margin: 8px 0 0 3px ;
+        color: white;
+        width: 100%px;
+        height: 20px;
+    }
+
     .inferior{
         border-radius: 0 0 0 10px;
         display: block;
@@ -111,10 +153,22 @@
         height: 110px;
     }
     .mix-grafico{
-        background-color: rgba(30, 24, 65, 0.633);
+        background-image: url('./img/Polygon14.png');
+        width:100%;
+        height: 62px;;
+    }
+    .mix-grafico-fundo{
+        background-color: rgba(29, 23, 59, 0.4);
         width: 100%;
         height: 62px;
     }
+    .mix-grafico-front img{
+        position: relative;
+        margin: 16px 0 0 10px ;
+        width: 90%;
+        height: 30px;
+    }
+
     .mix-menu{
         background-color: rgb(30, 24, 65);
         border-radius: 0 0 0 10px;
