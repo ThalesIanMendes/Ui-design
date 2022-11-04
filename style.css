@@ -209,7 +209,17 @@
         border-bottom: 1px solid rgb(65, 60, 97);
         height: 40px;
     }
-
+    .menu-superior img{
+        position: relative;
+        margin: 10px;
+    }
+    .right-inferior{
+        background-color: aliceblue;
+        position:relative;
+        margin: 25px auto;
+        width: 90%;
+        height: 475px;
+    }
 
 }
 
