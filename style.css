@@ -172,10 +172,41 @@
     .mix-menu{
         background-color: rgb(30, 24, 65);
         border-radius: 0 0 0 10px;
+        display: flex;
         width: 100%;
         height: 48px;
     }
-
+    .img-sophie{
+        position: relative;
+        margin: 10px 0 0 10px;
+        width: 26px;
+        height: 28px;
+    }
+    .mix-menu p{
+        position: relative;
+        margin: 17.5px 0 0 4px;
+        color: white;
+        font-size:9px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .img-mic{
+        position: relative;
+        margin: 13px 0 0 24px;
+        width: 25px;
+        height: 25px;
+    }
+    .img-deafen{
+        position: relative;
+        margin: 13px 0 0 14px;
+        width: 25px;
+        height: 25px;
+    }
+    .img-add{
+        position: relative;
+        margin: 13px 0 0 14px;
+        width: 25px;
+        height: 25px;
+    }
 
     .center{
         background-color: rgb(30, 24, 65);
@@ -214,12 +245,15 @@
         margin: 10px;
     }
     .right-inferior{
-        background-color: aliceblue;
         position:relative;
-        margin: 25px auto;
+        margin: auto;
         width: 90%;
         height: 475px;
     }
+    .imgt{
+        width: 100%;
+    }
+    
 
 }
 
